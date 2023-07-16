@@ -55,7 +55,7 @@ const data = [
     },
     {
       id: 10,
-      question: "Which one is the biggest island in the World?",
+      question: "In which year Hong Kong became a part of China after British Rule?",
       options:["1982","1989","1995","1997"],
       answer:"1997"
     }
