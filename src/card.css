@@ -1,0 +1,45 @@
+
+.card {
+    max-width: 80%;
+    background: linear-gradient(to bottom right, #ffffff, #f2f2f2);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.question {
+    font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333333;
+  padding: 1rem;
+}
+  
+.options {
+    font-size: 1.5rem;
+    color: #555555;
+    margin-bottom: 20px;
+}
+  
+button, .reset-quiz {
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: .8rem;
+    margin: .8rem;
+    background-color: #9681EB;
+    color: #ffffff;
+    border-radius: 10px;
+    border: 0px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+button:hover, .reset-quiz:hover {
+    background-color: #6527BE;
+  }
+  
+.result-text{
+  color: white;
+  font-size: 2.2rem;
+  font-weight: 500;
+}
